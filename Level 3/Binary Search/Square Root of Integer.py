@@ -34,7 +34,7 @@ class Solution:
     def sqrt(self, A):
       l = 0
       r = A//2+1
-      if r**2 == A: return r
+      if r**2 == A: return r             # for A = 1
       ans = -1
       while l<r:
         mid = l+(r-l)//2
